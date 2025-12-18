@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Abdullah K. | Portfolio</title>
+        <link rel="stylesheet" href="/style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script>
+            tailwind.config = {
+                darkMode: 'class',
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: {
+                                500: '#6d28d9',
+                                600: '#5b21b6',
+                            },
+                            secondary: {
+                                500: '#10b981',
+                                600: '#059669',
+                            },
+                            dark: {
+                                900: '#0f172a',
+                                800: '#1e293b',
+                                700: '#334155',
+                            },
+                        },
+                    },
+                },
+            };
+        </script>
+    </head>
+    <body class="bg-dark-900 text-gray-100 font-mono overflow-x-hidden">
+        <div id="root"></div>
+
+        <script src="/script.js"></script>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>
