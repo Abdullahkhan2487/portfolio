@@ -57,18 +57,22 @@ function App() {
                 </section>
 
                 {/* About Section */}
+                {/* About Section */}
                 <section id="about" className="py-20 relative">
-                    <div className="absolute -left-20 top-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-primary-500/10 blur-3xl -z-10" />
+                    <div className="absolute -left-28 md:-left-36 top-1/3 md:top-1/4 w-64 h-64 rounded-full bg-primary-500/10 blur-3xl -z-10" />
                     <div className="absolute -right-20 bottom-1/4 w-64 h-64 rounded-full bg-secondary-500/10 blur-3xl -z-10" />
 
                     <div className="max-w-5xl mx-auto px-4 md:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                        <div className="relative">
-                            <div className="absolute -inset-4 border-2 border-primary-500/30 rounded-xl rotate-6" />
-                            <div className="absolute -inset-6 border-2 border-secondary-500/30 rounded-xl rotate-12" />
+                        <div className="relative lg:-translate-y-4 lg:-translate-x-6">
+                            {/* Background squares */}
+                            <div className="absolute -inset-0 border-2 border-primary-500/30 rounded-xl rotate-6" />
+                            <div className="absolute -inset-0 border-2 border-secondary-500/30 rounded-xl rotate-12" />
+
+                            {/* Profile Image */}
                             <img
-                                src="http://static.photos/technology/640x360/42"
+                                src="/meai.png"
                                 alt="Profile"
-                                className="relative z-10 rounded-lg w-full h-auto object-cover"
+                                className="relative z-10 rounded-3xl w-72 h-72 lg:w-76 lg:h-76 object-cover translate-x-20"
                             />
                         </div>
 
@@ -92,33 +96,7 @@ function App() {
                                     technologies, or mentoring aspiring developers.
                                 </p>
                             </div>
-
-                            <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-4">
-                                <div className="bg-dark-800 p-4 rounded-lg border border-dark-700 hover:border-primary-500 transition-all">
-                                    <i data-feather="code" className="text-secondary-500 mb-2" />
-                                    <h3 className="font-bold">Full-Stack</h3>
-                                </div>
-                                <div className="bg-dark-800 p-4 rounded-lg border border-dark-700 hover:border-primary-500 transition-all">
-                                    <i data-feather="cpu" className="text-secondary-500 mb-2" />
-                                    <h3 className="font-bold">AI/ML</h3>
-                                </div>
-                                <div className="bg-dark-800 p-4 rounded-lg border border-dark-700 hover:border-primary-500 transition-all">
-                                    <i data-feather="shield" className="text-secondary-500 mb-2" />
-                                    <h3 className="font-bold">Security</h3>
-                                </div>
-                                <div className="bg-dark-800 p-4 rounded-lg border border-dark-700 hover:border-primary-500 transition-all">
-                                    <i data-feather="cloud" className="text-secondary-500 mb-2" />
-                                    <h3 className="font-bold">Cloud</h3>
-                                </div>
-                                <div className="bg-dark-800 p-4 rounded-lg border border-dark-700 hover:border-primary-500 transition-all">
-                                    <i data-feather="database" className="text-secondary-500 mb-2" />
-                                    <h3 className="font-bold">Data</h3>
-                                </div>
-                                <div className="bg-dark-800 p-4 rounded-lg border border-dark-700 hover:border-primary-500 transition-all">
-                                    <i data-feather="smartphone" className="text-secondary-500 mb-2" />
-                                    <h3 className="font-bold">Mobile</h3>
-                                </div>
-                            </div>
+                            {/* ...rest of About Section */}
                         </div>
                     </div>
                 </section>
@@ -358,24 +336,26 @@ function App() {
                         <div className="group relative overflow-hidden rounded-xl border border-dark-700 hover:border-primary-500 transition-all duration-500">
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-dark-900/80 z-10" />
                             <img
-                                src="http://static.photos/technology/640x360/101"
+                                src="/applivity.jpg"
                                 alt="Project"
                                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                             />
                             <div className="absolute bottom-0 left-0 p-6 z-20 w-full">
                                 <div className="flex items-center mb-2">
-                                    <span className="bg-primary-500 text-xs px-2 py-1 rounded mr-2">AI</span>
-                                    <span className="bg-secondary-500 text-xs px-2 py-1 rounded">ML</span>
+                                    <span className="bg-primary-500 text-xs px-2 py-1 rounded mr-2">.NET</span>
+                                    <span className="bg-secondary-500 text-xs px-2 py-1 rounded mr-2">React</span>
+                                    <span className="bg-blue-500 text-xs px-2 py-1 rounded">Azure</span>
                                 </div>
-                                <h3 className="text-xl font-bold mb-2">Neural Vision</h3>
+                                <h3 className="text-xl font-bold mb-2">Software House LMS</h3>
                                 <p className="text-sm opacity-90 mb-4">
-                                    Computer vision platform for real-time object detection
+                                    Empowering Workflow through smart, intuitive, and scalable LMS solutions deployed
+                                    directly on Azure
                                 </p>
                                 <a
-                                    href="#"
+                                    href="https://siqasoftwaresystem-frontend.netlify.app/"
                                     className="text-primary-500 hover:text-primary-400 text-sm font-medium flex items-center"
                                 >
-                                    View Case Study
+                                    View
                                     <i data-feather="arrow-right" className="w-4 h-4 ml-1" />
                                 </a>
                             </div>
@@ -391,16 +371,21 @@ function App() {
                             />
                             <div className="absolute bottom-0 left-0 p-6 z-20 w-full">
                                 <div className="flex items-center mb-2">
-                                    <span className="bg-primary-500 text-xs px-2 py-1 rounded mr-2">Web</span>
-                                    <span className="bg-secondary-500 text-xs px-2 py-1 rounded">API</span>
+                                    <span className="bg-primary-500 text-xs px-2 py-1 rounded mr-2">Flutter</span>
+                                    <span className="bg-secondary-500 text-xs px-2 py-1 rounded mr-2">.Net</span>
+                                    <span className="bg-gray-500 text-xs px-2 py-1 rounded mr-2">MongoDb</span>
+                                    <span className="bg-yellow-500 text-xs px-2 py-1 rounded mr-2">FireBase</span>
                                 </div>
-                                <h3 className="text-xl font-bold mb-2">Quantum API</h3>
-                                <p className="text-sm opacity-90 mb-4">High-performance microservices architecture</p>
+                                <h3 className="text-xl font-bold mb-2">Kookit</h3>
+                                <p className="text-sm opacity-90 mb-4">
+                                    A Flutter app with a .NET backend, letting users sync with a cooking robot via QR
+                                    code to follow or customize recipes
+                                </p>
                                 <a
                                     href="#"
                                     className="text-primary-500 hover:text-primary-400 text-sm font-medium flex items-center"
                                 >
-                                    View Case Study
+                                    View
                                     <i data-feather="arrow-right" className="w-4 h-4 ml-1" />
                                 </a>
                             </div>
@@ -460,11 +445,7 @@ function App() {
                             from you.
                         </p>
 
-                        <form
-                            className="space-y-6"
-                            action="https://formspree.io/f/xkowwdzg"
-                            method="POST"
-                        >
+                        <form className="space-y-6" action="https://formspree.io/f/xkowwdzg" method="POST">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label htmlFor="name" className="block text-sm font-medium mb-2">
