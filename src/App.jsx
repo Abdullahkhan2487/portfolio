@@ -87,7 +87,7 @@ function App() {
                                     technical excellence with creative problem-solving.
                                 </p>
                                 <p>
-                                    With 5+ years of experience, I&apos;ve worked across the stack - from crafting
+                                    With 3+ years of experience, I&apos;ve worked across the stack - from crafting
                                     pixel-perfect UIs to designing robust backend architectures. I thrive in
                                     environments that challenge me to grow and innovate.
                                 </p>
@@ -385,7 +385,7 @@ function App() {
                                     href="#"
                                     className="text-primary-500 hover:text-primary-400 text-sm font-medium flex items-center"
                                 >
-                                    View
+                                    View Case Study
                                     <i data-feather="arrow-right" className="w-4 h-4 ml-1" />
                                 </a>
                             </div>
