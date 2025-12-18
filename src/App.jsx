@@ -385,7 +385,7 @@ function App() {
                                     href="#"
                                     className="text-primary-500 hover:text-primary-400 text-sm font-medium flex items-center"
                                 >
-                                    View Case Study
+                                    View
                                     <i data-feather="arrow-right" className="w-4 h-4 ml-1" />
                                 </a>
                             </div>
@@ -395,22 +395,52 @@ function App() {
                         <div className="group relative overflow-hidden rounded-xl border border-dark-700 hover:border-primary-500 transition-all duration-500">
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-dark-900/80 z-10" />
                             <img
-                                src="http://static.photos/technology/640x360/103"
+                                src="/techhaven.png"
                                 alt="Project"
                                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                             />
                             <div className="absolute bottom-0 left-0 p-6 z-20 w-full">
                                 <div className="flex items-center mb-2">
-                                    <span className="bg-primary-500 text-xs px-2 py-1 rounded mr-2">Mobile</span>
-                                    <span className="bg-secondary-500 text-xs px-2 py-1 rounded">IoT</span>
+                                    <span className="bg-primary-500 text-xs px-2 py-1 rounded mr-2">WordPress</span>
+                                    <span className="bg-secondary-500 text-xs px-2 py-1 rounded mr-2">PHP</span>
+                                    <span className="bg-yellow-500 text-xs px-2 py-1 rounded">JS</span>
                                 </div>
-                                <h3 className="text-xl font-bold mb-2">Smart Home Hub</h3>
-                                <p className="text-sm opacity-90 mb-4">Cross-platform IoT control center</p>
+                                <h3 className="text-xl font-bold mb-2">Tech Haven</h3>
+                                <p className="text-sm opacity-90 mb-4">
+                                    Wordpress based E-Commerece site with custom PHP and JS
+                                </p>
                                 <a
-                                    href="#"
+                                    href="https://techhaven.com.pk/"
                                     className="text-primary-500 hover:text-primary-400 text-sm font-medium flex items-center"
                                 >
-                                    View Case Study
+                                    View
+                                    <i data-feather="arrow-right" className="w-4 h-4 ml-1" />
+                                </a>
+                            </div>
+                        </div>
+                        {/* Project 4 */}
+                        <div className="group relative overflow-hidden rounded-xl border border-dark-700 hover:border-primary-500 transition-all duration-500">
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-dark-900/80 z-10" />
+                            <img
+                                src="/goodtime.png"
+                                alt="Project"
+                                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div className="absolute bottom-0 left-0 p-6 z-20 w-full">
+                                <div className="flex items-center mb-2">
+                                    <span className="bg-primary-500 text-xs px-2 py-1 rounded mr-2">WordPress</span>
+                                    <span className="bg-secondary-500 text-xs px-2 py-1 rounded mr-2">PHP</span>
+                                    <span className="bg-yellow-500 text-xs px-2 py-1 rounded">JS</span>
+                                </div>
+                                <h3 className="text-xl font-bold mb-2">Good Time Jewellers</h3>
+                                <p className="text-sm opacity-90 mb-4">
+                                    Wordpress based E-Commerece site for a canadian client with custom PHP and JS
+                                </p>
+                                <a
+                                    href="https://goodtimejewellers.com/"
+                                    className="text-primary-500 hover:text-primary-400 text-sm font-medium flex items-center"
+                                >
+                                    View
                                     <i data-feather="arrow-right" className="w-4 h-4 ml-1" />
                                 </a>
                             </div>
